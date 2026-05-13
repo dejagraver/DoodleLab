@@ -3,7 +3,7 @@ function preloadStampImages() {
     stampImages = []; 
     let stampFilenames = [
         'assets/pinkFlowersStamp1.png',
-        'assets/Sparklesstamp2.png'
+        'assets/sparklesStamp2.png'
     ];
     for (let filename of stampFilenames) {
         stampImages.push(loadImage(filename));

@@ -13,7 +13,7 @@ var stampImages = []; // Array of preloaded stamp images used by stampTool.js
 var headerFont;      // Custom font for header text
 
 function preload() {
-	headerFont = loadFont("assets/fonts/interVariableFont.ttf");
+	headerFont = loadFont("assets/fonts/InterVariableFont.ttf");
 	preloadStampImages(); // Defined in stampTool.js - loads stamp images before setup
 }
 // End of my new code
